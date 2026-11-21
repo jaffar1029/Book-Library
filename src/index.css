@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@400;700&display=swap");
+
+:root {
+  --bg: #f4f1ea;
+  --surface: #fbf9f4;
+  --sidebar: #4a6355;
+  --sidebar-text: #eef1ea;
+  --text: #2f3a35;
+  --text-muted: #6b7770;
+  --border: #ddd8cb;
+  --accent: #7c9a88;
+  --accent-hover: #6b8877;
+  --read-bg: #dce8dd;
+  --read-text: #3e6350;
+  --unread-bg: #f1e6cf;
+  --unread-text: #7a6232;
+  --genre-bg: #dde6ec;
+  --genre-text: #44606f;
+  --danger: #b5736b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", Georgia, serif;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 0.2s;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-hover);
+}
+
+.btn-danger {
+  background-color: transparent;
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.btn-danger:hover {
+  background-color: rgba(181, 115, 107, 0.1);
+}
+.btn-secondary {
+  background-color: transparent;
+  border-color: var(--border);
+  color: var(--text-muted);
+}
+
+.btn-secondary:hover {
+  background-color: var(--bg);
+}

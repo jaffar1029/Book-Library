@@ -1,0 +1,45 @@
+.page-title {
+  font-size: 1.6rem;
+  margin-bottom: 24px;
+}
+
+.discover-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 48px 24px;
+  text-align: center;
+  max-width: 560px;
+  box-shadow: 0 2px 8px rgba(47, 58, 53, 0.08);
+}
+
+.discover-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.discover-heading {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.discover-text {
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.coming-soon-badge {
+  display: inline-block;
+  background-color: var(--unread-bg);
+  color: var(--unread-text);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.discover-note {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}

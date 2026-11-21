@@ -1,0 +1,28 @@
+.search-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.filter-select {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background-color: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.filter-select:focus {
+  outline: 2px solid var(--accent);
+  border-color: transparent;
+}
+
+@media (max-width: 700px) {
+  .search-input {
+    flex-basis: 100%;
+  }
+}
